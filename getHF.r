@@ -1,5 +1,5 @@
 require(IBrokers)
-require(quantmod)
+#require(quantmod)
 getHF<-function(contract,barSize,duration){
   twsConnect()->tws
   contract. <- twsEquity(contract)
